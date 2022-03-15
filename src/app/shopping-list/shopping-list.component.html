@@ -1,0 +1,6 @@
+<h1>my shopping list</h1>
+<ul>
+    <li *ngFor='let product of products'>
+        {{product.product}} {{product.price | currency:'₪'}}
+    </li>
+</ul>
